@@ -1,0 +1,34 @@
+let user1Ans = [];
+let user2Ans = [];
+
+      user1Ans.push(parseInt(e.target.attributes.value.value));
+      user2Ans.push(parseInt(e.target.attributes.value.value));
+
+
+
+      if (user1Ans.length > 2) {
+        //   for(i=0;i<(user1Ans.length)-2;i++){
+        //       for(j=i+1;j<(user1Ans.length)-1;j++){
+        //               for(k=j+1;k<user1Ans.length;k++){
+        //                 for(let winchI in winChart){
+        //                     console.log(winChart[winchI][0]);
+        //                 }
+        // if(winChart.every((value,index)=>value===(user1Ans[i],user1Ans[j],user1Ans[k]))){
+        //     alert("you are winner");
+        // }
+        //   console.log(`${user1Ans[i]} ${user1Ans[j]} ${user1Ans[k]}`);
+        //   for(l=0;l<winChart.length-1;l++){
+        //     //   console.log(winChart[l][0],winChart[l][1],winChart[l][2]);
+        //     // console.log(`${([user1Ans[i],user1Ans[j],user1Ans[k]])}==${(winChart[l])}`);
+        //     console.log(([user1Ans[i],user1Ans[j],user1Ans[k]]),(winChart[l]));
+        //     console.log(([user1Ans[i],user1Ans[j],user1Ans[k]])===(winChart[l]));
+        //       if([user1Ans[i],user1Ans[j],user1Ans[k]]==winChart[l]){
+        //           console.log("user 1 won the game");
+        //           alert("user 1 won the game");
+        //       }
+        //     }
+        //           }
+        //       }
+        //   }
+      }
+
